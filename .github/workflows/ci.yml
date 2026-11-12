@@ -25,7 +25,7 @@ jobs:
         access_token: ${{ github.token }}
 
     - name: Install Protoc
-      uses: arduino/setup-protoc@v1
+      uses: arduino/setup-protoc@v3
 
     - uses: actions/checkout@v3
 
@@ -60,7 +60,7 @@ jobs:
         access_token: ${{ github.token }}
 
     - name: Install Protoc
-      uses: arduino/setup-protoc@v1
+      uses: arduino/setup-protoc@v3
 
     - uses: actions/checkout@v3
 
@@ -98,7 +98,7 @@ jobs:
         access_token: ${{ github.token }}
 
     - name: Install Protoc
-      uses: arduino/setup-protoc@v1
+      uses: arduino/setup-protoc@v3
 
     - uses: actions/checkout@v3
 
@@ -123,7 +123,7 @@ jobs:
         access_token: ${{ github.token }}
 
     - name: Install Protoc
-      uses: arduino/setup-protoc@v1
+      uses: arduino/setup-protoc@v3
 
     - uses: actions/checkout@v3
 
@@ -152,7 +152,7 @@ jobs:
         access_token: ${{ github.token }}
 
     - name: Install Protoc
-      uses: arduino/setup-protoc@v1
+      uses: arduino/setup-protoc@v3
 
     - uses: actions/checkout@v3
 
@@ -251,7 +251,7 @@ jobs:
         override: true
 
     - name: Install Protoc
-      uses: arduino/setup-protoc@v1
+      uses: arduino/setup-protoc@v3
 
     - uses: Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8 # v2.0.0
 
