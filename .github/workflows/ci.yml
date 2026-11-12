@@ -27,7 +27,7 @@ jobs:
     - name: Install Protoc
       uses: arduino/setup-protoc@v1
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
 
     - uses: Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8 # v2.0.0
       with:
@@ -62,7 +62,7 @@ jobs:
     - name: Install Protoc
       uses: arduino/setup-protoc@v1
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
 
     - name: Install Rust ${{ matrix.toolchain }}
       uses: actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af # v1.0.7
@@ -100,7 +100,7 @@ jobs:
     - name: Install Protoc
       uses: arduino/setup-protoc@v1
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
 
     - uses: actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af # v1.0.7
       with:
@@ -125,7 +125,7 @@ jobs:
     - name: Install Protoc
       uses: arduino/setup-protoc@v1
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
 
     - uses: actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af # v1.0.7
       with:
@@ -154,7 +154,7 @@ jobs:
     - name: Install Protoc
       uses: arduino/setup-protoc@v1
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
 
     - uses: actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af # v1.0.7
       with:
@@ -176,7 +176,7 @@ jobs:
       with:
         access_token: ${{ github.token }}
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
 
     - uses: actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af # v1.0.7
       with:
@@ -197,7 +197,7 @@ jobs:
       with:
         access_token: ${{ github.token }}
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
 
     - uses: actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af # v1.0.7
       with:
@@ -222,7 +222,7 @@ jobs:
     outputs:
       members: ${{ steps.cargo-metadata.outputs.members }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
       - id: cargo-metadata
         run: |
@@ -242,7 +242,7 @@ jobs:
       with:
         access_token: ${{ github.token }}
 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v7
 
     - uses: actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af # v1.0.7
       with:
